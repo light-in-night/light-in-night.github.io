@@ -11,7 +11,7 @@
      <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
      <script type='text/javascript'> 
       var myurl = 'https://docs.google.com/spreadsheets/d/1BFYbSo2CoN43_DHxU9bdqwSwBdr9s41d8AQT6XWQfyA/edit?usp=sharing';
-      
+      var myemail = 'tornikeonoprishvili@gmail.com';
       function init() {
         Tabletop.init( { key: myurl,
                          callback: showInfo,
@@ -25,6 +25,11 @@
 
       window.addEventListener('DOMContentLoaded', init)
     </script>
+    <form action="https://formspree.io/tornikeonoprishvili@gmail.com" method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+    </form>
     <div class=”post”>
     </div>
   </body>
