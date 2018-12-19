@@ -10,10 +10,11 @@
   <body>
      <script>
       function init() {
-         Tabletop.init( { key: '1BFYbSo2CoN43_DHxU9bdqwSwBdr9s41d8AQT6XWQfyA',
-           callback: function(data, tabletop) { 
-             console.log(data)
-           }, simpleSheet: true } )
+        Tabletop.init( { key: 'https://docs.google.com/spreadsheets/d/1BFYbSo2CoN43_DHxU9bdqwSwBdr9s41d8AQT6XWQfyA/pubhtml',
+                         callback: function(data, tabletop) { 
+                             console.log(data)
+                         },
+                         simpleSheet: true } )
       }
       function showInfo(data, tabletop) {
         console.log(data);
