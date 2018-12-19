@@ -9,6 +9,14 @@
   </head>
   <body>
     <script src="js/scripts.js">
+    function init() {
+     Tabletop.init( { key: ‘1BFYbSo2CoN43_DHxU9bdqwSwBdr9s41d8AQT6XWQfyA',
+     callback: function(data, tabletop) { 
+     console.log(data)
+     },
+     simpleSheet: true } )
+    }
+    window.addEventListener(‘DOMContentLoaded’, init)
     </script>
     Hello world
   </body>
